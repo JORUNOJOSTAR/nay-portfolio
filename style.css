@@ -343,3 +343,78 @@ article{
 article .icon {
     cursor: default;
 }
+
+/* PROJECTS */
+#projects{
+    position: relative;
+}
+
+.color-container {
+    border-color: rgb(163,163,163);
+    background: rgb(250,250,250);
+}
+
+.project-img{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163,163,163);
+}
+
+/* Contact */
+#contact {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+}
+
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    background: rgb(255,255,255);
+    margin: 2rem auto;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.contact-info-contanier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-contanier p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    height: 26vh;
+}
